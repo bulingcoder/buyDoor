@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<link rel="shortcut icon" href="../resources/favicon.ico" th:href="@{/static/favicon.ico}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>显示user列表</h1>
+    <a th:href="@{/user/addUser}">增加用户</a>
+    <form  th:action="@{/user/findUser}" method="post" >
+        姓名：<input type="text" name="username">
+        <input type="submit" value="查询用户">
+        <span th:text="${err}" style="color:red"></span>
+    </form>
+
+    <table border="1" align="center">
+        <tr>
+            <th>用户ID</th>
+            <th>用户姓名</th>
+            <th>用户性别</th>
+            <th>操作</th>
+        </tr>
+        <tr th:each="u : ${userList}">
+            <td th:text="${u.userid}"></td>
+            <td th:text="${u.username}"></td>
+            <td th:text="${u.usersex}"></td>
+            <td>
+                <a th:href="@{/user/preUpdateUser(id=${u.userid})}">修改</a>
+                <a th:href="@{/user/deleteUser(id=${u.userid})}">删除</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

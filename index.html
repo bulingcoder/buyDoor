@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:HttpSession="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+<body>
+
+<h1>刘做作来也！！！</h1>
+<form action="/fileUploadController" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <input type="submit" value="submit" />
+</form>
+
+<span th:text="北京尚学堂"></span>
+<span th:text="${msg}"></span>
+
+<a  type="button" href="http://localhost:9000/gateway/helloWorld">跨域请求测试</a>
+<input type="button" value="跨域请求测试" onclick="testCORS">
+<button>发送一个 HTTP GET 请求并获取返回结果</button>
+<script>
+
+ $(document).ready(function(){
+	$("button").click(function(){
+	alert("数据: ");
+		$.get("http://localhost:9000/gateway/helloWorld",function(data,status){
+			alert("数据: " + data + "\n状态: " + status);
+		});
+	});
+});
+</script>
+</body>
+</html>

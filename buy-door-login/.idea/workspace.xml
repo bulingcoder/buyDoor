@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:nacos-spring-boot-samples" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:nacos-spring-boot-samples" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:nacos-config-sample" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f28edfb-79b9-4600-bc42-857818956e94" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/nacos-group/nacos-spring-boot-project" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="27FNUjaVqMaUJWiNDGTnQ4LKoS4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/img" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.whw" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.whw.entity.response" />
+      <recent name="com.whw.mapper" />
+      <recent name="com.whw.service.impl" />
+      <recent name="com.whw.service" />
+      <recent name="com.whw.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\buyDoor\buy-door-login\src\main\resources\static\img" />
+      <recent name="W:\buyDoor\buy-door-login\src\main\resources\templates" />
+      <recent name="W:\buyDoor\buy-door-login\src\main\resources" />
+      <recent name="W:\chatail\java_up\mybatisplusdemo\src\main\java\com\whw" />
+      <recent name="W:\chatail\java_up\mybatisplusdemo\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BuyDoorLoginApplication">
+    <configuration name="BuyDoorLoginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whw.BuyDoorLoginApplication" />
+      <module name="buy-door-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetaObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whw.MetaObjectTest" />
+      <module name="buy-door-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DSTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="buy-door-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.whw" />
+      <option name="MAIN_CLASS_NAME" value="com.whw.DSTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusTest.testInsertFieldFill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="buy-door-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.whw" />
+      <option name="MAIN_CLASS_NAME" value="com.whw.MyBatisPlusTest" />
+      <option name="METHOD_NAME" value="testInsertFieldFill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusTest.testUpdateFieldFill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="buy-door-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.whw" />
+      <option name="MAIN_CLASS_NAME" value="com.whw.MyBatisPlusTest" />
+      <option name="METHOD_NAME" value="testUpdateFieldFill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BuyDoorLoginApplication" />
+        <item itemvalue="JUnit.DSTest.test" />
+        <item itemvalue="Application.MetaObjectTest" />
+        <item itemvalue="JUnit.MyBatisPlusTest.testInsertFieldFill" />
+        <item itemvalue="JUnit.MyBatisPlusTest.testUpdateFieldFill" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f28edfb-79b9-4600-bc42-857818956e94" name="Default Changelist" comment="" />
+      <created>1648911891817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648911891817</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:W:/javaUp/mybatisplusdemo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1683454428734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1683454428734" />
+  </component>
+</project>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:HttpSession="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>北京尚学堂1</h1>
+
+<div>
+    <a th:href="@{/fileInput}">打开fileInput</a><hr/>
+</div>
+
+
+<span th:text="北京尚学堂2">gagagag</span>
+<br/>
+<span th:text="${msg}">wocao???</span>
+<br/>
+<input th:value="${msg}"><br/>
+
+<span th:text="${date}"></span><br/>
+
+<!--以浏览器默认的语言格式为格式化标准-->
+<span th:text="${#dates.format(date)}"></span><br/>
+<span th:text="${#dates.format(date,'yyyy/MM/dd')}"></span><br/>
+<span th:text="${#dates.year(date)}"></span><br/>
+<span th:text="${#dates.month(date)}"></span><<br/>
+
+<div>
+    <span th:if="${sex} == '男'">
+        男
+    </span>
+    <span th:if="${sex} != '女'">
+        女2
+    </span><br/>
+
+
+    <div th:switch="${id}">
+        <span th:case="1"> id:1</span>
+        <span th:case="2"> id:2</span>
+        <span th:case="3"> id:3</span>
+        <span th:case="*"> id:未知</span>
+    </div>
+
+    <table border="1">
+        <tr th:each="m : ${list}">
+            <!-- 其中m是个临时变量，像for(User u : userList)那样中的u-->
+            <td th:text="${m.name}"></td>
+            <td th:text="${m.age}"></td>
+        </tr>
+    </table>
+    <hr/>
+   <table border="1" width="90%">
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>AGE</th>
+            </tr>
+            <tr th:each="u: ${list2}">
+                <td th:text="${u.id}"></td>
+                <td th:text="${u.name}"></td>
+                <td th:text="${u.age}"></td>
+            </tr>
+    </table>
+    <hr/>
+    <table border="1" width="90%">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>index</th>
+            <th>count</th>
+            <th>size</th>
+            <th>odd</th>
+            <th>even</th>
+            <th>first</th>
+            <th>last</th>
+
+        </tr>
+        <tr th:each="u,sort : ${list2}">
+            <td th:text="${u.id}"></td>
+            <td th:text="${u.name}"></td>
+            <td th:text="${u.age}"></td>
+            <td th:text="${sort.index}"></td><!--当前迭代器的索引 从0开始-->
+            <td th:text="${sort.count}"></td><!--当前迭代器的对象的计数 从1开始-->
+            <td th:text="${sort.size}"></td><!--被迭代对象的长度-->
+            <td th:text="${sort.odd}"></td><!--布尔值，当前循环是否时偶数/奇数 0开始-->
+            <td th:text="${sort.even}"></td>
+            <td th:text="${sort.first}"></td><!--布尔值，当前循环的是否是第一条-->
+            <td th:text="${sort.last}"></td><!--布尔值，当前循环是否时最后一条-->
+        </tr>
+    </table>
+    <hr/>
+    <table border="1" width="90%">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>KEY</th>
+        </tr>
+        <tr th:each="m: ${map}">
+            <td th:text="${m.value.id}"></td>
+            <td th:text="${m.value.name}"></td>
+            <td th:text="${m.value.age}"></td>
+            <td th:text="${m.key}"></td>
+        </tr>
+    </table>
+    <hr/>
+
+
+    <a th:href="@{www.baidu.com}">打开百度</a><hr/>
+    <a th:href="@{/show2}">打开show2</a><hr/>
+    <a th:href="@{/show2?id=1&name=admin}">打开show2并传值 方式一</a><hr/>
+    <a th:href="@{/show2(id=2,name=admin2)}">打开show2并传值 方式二</a><hr/>
+    <a th:href="@{'/show2?id='+${UserId}+'&name='+${UserName}}">打开show2并传值 方式三</a><hr/>
+    <a th:href="@{/show2(id=${UserId},name=${UserName})}">打开show2并传值 方式四</a><hr/>
+
+    <a th:href="@{/show3/{id}(id=500)}">RESTfu风格 传值 方式一</a><hr/>
+    <a th:href="@{/show3/{id}/{name}(id=500,name=mary)}">RESTfu风格 传值 方式二</a><hr/>
+    <a th:href="@{/show4/{id}(id=600,name=mary2)}">RESTfu风格 传值 方式三</a><hr/>
+    <a th:href="@{/show4/{id}(id=${UserId},name=${UserName})}">RESTfu风格 传值 方式四</a><hr/>
+
+</div>
+
+
+
+
+</body>
+</html>
