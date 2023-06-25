@@ -1,0 +1,43 @@
+server:
+  port:8081
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      strict: false
+      datasource:
+        master:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/whw_buy?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&useSSL=false
+          username: root
+          password: zaq12wsX
+          type: com.zaxxer.hikari.HikariDataSource
+        slave_1:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/whw_buy?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&useSSL=false
+          username: root
+          password: zaq12wsX
+          type: com.zaxxer.hikari.HikariDataSource
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    enabled: true
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+  mvc:static-path-pattern:/static/**
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.196.237.100:8848
+  application:
+    name: buy-door-login-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-enums-package: com.whw.enums

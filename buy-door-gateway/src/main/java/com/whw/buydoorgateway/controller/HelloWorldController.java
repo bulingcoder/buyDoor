@@ -9,7 +9,7 @@ public class HelloWorldController {
 
    @RequestMapping("/helloWorld")
     public String showHelloWorld () {
-
+        System.out.println("open fengin 调用成功");
         return "HelloWorld:9000";
     }
 }

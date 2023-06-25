@@ -1,5 +1,6 @@
 package com.whw.controller;
 
+import com.whw.annotation.NoRepeatSubmit;
 import com.whw.service.feign.GateWayFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,5 +30,13 @@ public class HelloWorldController {
     @RequestMapping("/feiHelloWorld")
     public String feiHelloWorld () {
       return gateWayFeignService.showHelloWorld();
+    }
+
+    @NoRepeatSubmit
+    @RequestMapping("/NoRepeatSubmitTest")
+    public String noRepeatSubmitTest () {
+
+        System.out.println("重复提交测试:");
+        return "HelloWorld:重复提交测试";
     }
 }
