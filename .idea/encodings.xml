@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/buy-door-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/buy-door-gateway/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/buy-door-login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buy-door-scheduler/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -56,7 +56,7 @@ public class NoRepeatSubmitAspect {
             throw new Exception( "请勿重复提交");
         }else {
             //此处设置的1秒过期
-            redisTemplate.opsForValue().set(redisKey, "不要重复提交！！！",5000, TimeUnit.MILLISECONDS);
+            redisTemplate.opsForValue().set(redisKey, "不要重复提交！！！",1000, TimeUnit.MILLISECONDS);
             log.info("value:::::"+redisTemplate.opsForValue().get(redisKey));
         }
     }
