@@ -13,10 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="buy-door-gateway" target="1.8" />
       <module name="buy-door-gateway (1)" target="1.8" />
-      <module name="buy-door-login" target="1.8" />
-      <module name="buy-door-scheduler" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

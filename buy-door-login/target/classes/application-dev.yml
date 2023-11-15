@@ -10,13 +10,13 @@ spring:
           driver-class-name: com.mysql.cj.jdbc.Driver
           url: jdbc:mysql://localhost:3306/whw_buy?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&useSSL=false
           username: root
-          password: zaq12wsX
+          password: whwmysqlzaq12wsX!
           type: com.zaxxer.hikari.HikariDataSource
         slave_1:
           driver-class-name: com.mysql.cj.jdbc.Driver
           url: jdbc:mysql://localhost:3306/whw_buy?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&useSSL=false
           username: root
-          password: zaq12wsX
+          password: whwmysqlzaq12wsX!
           type: com.zaxxer.hikari.HikariDataSource
   thymeleaf:
     prefix: classpath:/templates/
@@ -26,11 +26,13 @@ spring:
     encoding: UTF-8
     content-type: text/html
     cache: false
-  mvc:static-path-pattern:/static/**
+  mvc:static-path-pattern: /static/**
   cloud:
     nacos:
       discovery:
-        server-addr: 121.196.237.100:8848
+        server-addr: 47.103.111.21:8848
+        username: nacos
+        password: nacoszaq12wsX
   application:
     name: buy-door-login-service
   boot:

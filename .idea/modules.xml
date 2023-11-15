@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/buy-door-gateway/buy-door-gateway.iml" filepath="$PROJECT_DIR$/buy-door-gateway/buy-door-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/buy-door-login/buy-door-login.iml" filepath="$PROJECT_DIR$/buy-door-login/buy-door-login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/buy-door-scheduler/buy-door-scheduler.iml" filepath="$PROJECT_DIR$/buy-door-scheduler/buy-door-scheduler.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/buyDoor.iml" filepath="$PROJECT_DIR$/.idea/buyDoor.iml" />
     </modules>
   </component>
